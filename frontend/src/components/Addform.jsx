@@ -16,7 +16,7 @@ setVal({...val,[e.target.name]:e.target.value})
 axios.post('https://food-menu-backend-0u9t.onrender.com/api/menus',val).then((res)=>{
 
 setVal({name:"",description:""})
-navigate('/home')
+navigate('/')
 
 }).catch((err)=>{
 console.log(err)

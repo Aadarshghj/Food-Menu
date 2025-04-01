@@ -14,7 +14,7 @@ const Home = () => {
     
     
     useEffect(()=>{
-    axios.get('http://localhost:5000/api/menus/').then((res)=>{
+    axios.get('https://food-menu-backend-0u9t.onrender.com/api/menus/').then((res)=>{
         setMenu(res.data)
     
     

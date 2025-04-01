@@ -13,7 +13,7 @@ setVal({...val,[e.target.name]:e.target.value})
 
       }
       const addHandler = () =>{
-axios.post('http://localhost:5000/api/menus',val).then((res)=>{
+axios.post('https://food-menu-backend-0u9t.onrender.com/api/menus',val).then((res)=>{
 
 setVal({name:"",description:""})
 navigate('/home')
